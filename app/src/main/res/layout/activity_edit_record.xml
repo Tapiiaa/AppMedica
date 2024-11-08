@@ -1,35 +1,49 @@
-<!-- res/layout/activity_edit_record.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#F0F8FF"> <!-- Color de fondo azul claro -->
 
     <EditText
         android:id="@+id/typeField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_type_of_record"
-        android:inputType="text" />
+        android:inputType="text"
+        android:padding="10dp"
+        android:backgroundTint="#00796B"
+        android:textColor="#000000" />
 
     <EditText
         android:id="@+id/descriptionField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_description"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:backgroundTint="#00796B"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp" />
 
     <EditText
         android:id="@+id/dateField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_date"
-        android:inputType="date" />
+        android:inputType="date"
+        android:padding="10dp"
+        android:backgroundTint="#00796B"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp" />
 
     <Button
         android:id="@+id/saveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/save_button_text"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00796B"
+        android:layout_marginTop="16dp"
         android:onClick="onSaveClick" />
 </LinearLayout>

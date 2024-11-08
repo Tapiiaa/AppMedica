@@ -1,10 +1,9 @@
-<!-- res/layout/item_medical_record.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp"
-    android:background="?attr/selectableItemBackground">
+    android:padding="12dp"
+    android:layout_marginVertical="4dp">
 
     <TextView
         android:id="@+id/typeTextView"
@@ -12,14 +11,17 @@
         android:layout_height="wrap_content"
         android:text="@string/type_text"
         android:textStyle="bold"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="#00796B" />
 
     <TextView
         android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/description_text"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:textColor="#333333"
+        android:layout_marginTop="4dp" />
 
     <TextView
         android:id="@+id/dateTextView"
@@ -27,5 +29,6 @@
         android:layout_height="wrap_content"
         android:text="@string/date_text"
         android:textColor="#888888"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:layout_marginTop="2dp" />
 </LinearLayout>

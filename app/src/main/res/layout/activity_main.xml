@@ -1,15 +1,17 @@
-<!-- res/layout/activity_main.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#F0F8FF"> <!-- Fondo azul claro -->
 
     <Button
         android:id="@+id/addRecordButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/add_record_button_text"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00796B"
         android:onClick="onAddRecordClick" />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -23,5 +25,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/logout_button_text"
-        android:onClick="onLogoutClick" />
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00796B"
+        android:onClick="onLogoutClick"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
