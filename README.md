@@ -1,4 +1,4 @@
-link a mi repo: 
+link a mi repo: https://github.com/Tapiiaa/AppMedica.git
 
 --------------
 realizado por: Pedro Alonso Tapia Lobo
