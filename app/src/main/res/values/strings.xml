@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">AppMedica</string>
+    <string name="app_name">Historial Médico</string>
+    <string name="hint_enter_username">Ingresa el usuario</string>
+    <string name="hint_enter_password">Ingresa la contraseña</string>
+    <string name="login_button_text">Iniciar sesión</string>
+    <string name="register_button_text">Registrarse</string>
+    <string name="hint_type_of_record">Tipo de registro médico</string>
+    <string name="hint_description">Descripción</string>
+    <string name="hint_date">Fecha (AAAA-MM-DD)</string>
+    <string name="save_button_text">Guardar</string>
+    <string name="add_record_button_text">Añadir registro médico</string>
+    <string name="logout_button_text">Cerrar sesión</string>
+    <string name="type_text">Tipo</string>
+    <string name="description_text">Descripción</string>
+    <string name="date_text">Fecha</string>
 </resources>
